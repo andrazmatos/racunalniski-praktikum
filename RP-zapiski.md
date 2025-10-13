@@ -13,7 +13,7 @@
 * `git pull` = potegne vse novosti iz GitHuba na Git in v tvoj računalnik
 * `git add <ime datoteke> ` = pripravi novosti v `<ime datoteke>` na izstrelitev na GitHub repozitorij
 * `git add *` = pripravi vse novosti na izstrelitev na GitHub repozitorij
-* `git commit -m <message>` = namesti vse pripravljene posodobljene datoteke na izstrelitveno platformo
+* `git commit -m "<message>"` = namesti vse pripravljene posodobljene datoteke na izstrelitveno platformo
 * `git push` = izstrelitev vsega novega na GitHub repozitorij :)
 <br></br>
 

@@ -63,5 +63,5 @@
 - `<img src="`pot do slike`" alt="`opis slike za slepe`">` | značke ne rabiš zapret
 <br>
 <br>
- Vse ostale vrednosti <kbd><></kbd> so dostopne [tukaj](https://htmlcheatsheet.com/).
+#### Vse ostale vrednosti <kbd><></kbd> so dostopne [tukaj](https://htmlcheatsheet.com/).
 

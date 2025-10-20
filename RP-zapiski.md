@@ -24,6 +24,44 @@
 <br></br>
 
 # VS Code
-* <kbd>AltGr</kbd> + <kbd>Mouse click</kbd> = multipli kurzorji
+* <kbd>AltGr</kbd> / <kbd>Ctrl</kbd> + <kbd>Mouse click</kbd> = multipli kurzorji
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> = odpri command tab
+* <kbd>Ctrl</kbd> + <kbd>Q</kbd> = wrap with abbreviations
+  
+
+  # HTML
+  ## Kako napisati postavitev strani
+  
+  1. ```<!DOCTYPE html>```
+  2. ```<html>```
+  3. ```<meta charset="UTF-8">```
+  4. ```<head>```
+  5. ```<title>``` *Nek naslov* ```</title>```
+  6. ```</head>```
+  7. ```<body>``` *Vsebina* ```</body>```
+  8. ```</html>```
+
+## Različne oblike zapisov
+- ```<p>``` — 
+- ```<h1/h2/h3>``` — podnaslovi
+- ```<strong>``` — bold
+- ```<em>``` — italics
+- ```<blockcode>``` — citat
+- ```<ol>``` — ordered list
+- ```<ul>``` — unordered list
+- ```<li>``` — element znotraj nekega list-a, <br> ```<ol>```
+ <br> ```<li>``` Nek element ```</li>``` <br> ```</ol>```
  
+## Kako vreči linke in podobne
+
+- ```<h2 id="```kodno ime```">```Napis, ki bo prikazan```</h2>``` — Kako v nek (v tem primeru naslov h2) vstaviš nekoo sidro, kamor te povleče, ko si predtem kliknil na nek link
+- `<a href="#`kodno ime, link`">`Besedilo hiperpovezave`</a>` — kako narediš hiperpovezavo v nekem besedilu
+- `<table>` — tabela
+- `<tr>` — označiš vrstico v tabeli
+- `<th>` — označiš glavo nekega stolpca
+- `<td>` — označiš vsebino celice v nekem stolpcu
+- `<img src="`pot do slike`" alt="`opis slike za slepe`">` | značke ne rabiš zapret
+<br>
+<br>
+Vse ostalevrednosti <kbd><></kbd> so dostopne [tukaj](https://htmlcheatsheet.com/).
 

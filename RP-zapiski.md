@@ -61,7 +61,6 @@
 - `<th>` — označiš glavo nekega stolpca
 - `<td>` — označiš vsebino celice v nekem stolpcu
 - `<img src="`pot do slike`" alt="`opis slike za slepe`">` | značke ne rabiš zapret
-<br>
-<br>
+<br> </br>
 #### Vse ostale vrednosti <kbd><></kbd> so dostopne [tukaj](https://htmlcheatsheet.com/).
 

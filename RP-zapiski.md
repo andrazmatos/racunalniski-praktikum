@@ -51,6 +51,7 @@
 - ```<ul>``` — unordered list
 - ```<li>``` — element znotraj nekega list-a, <br> ```<ol>```
  <br> ```<li>``` Nek element ```</li>``` <br> ```</ol>```
+ - isti `id` ima lahko en element, isti `class` pa več elementov
  
 ## Kako vreči linke in podobne
 
@@ -64,3 +65,6 @@
 <br> </br>
 #### Vse ostale vrednosti <kbd><></kbd> so dostopne [tukaj](https://htmlcheatsheet.com/).
 
+# CSS
+<kbd>.</kbd>class_name = sklicevalnik za class class_name
+<kbd>#</kbd>id_name = sklicevalnik za id, ki sem ga poimenoval id_name

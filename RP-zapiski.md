@@ -68,3 +68,4 @@
 # CSS
 - <kbd>.</kbd>class_name`{}` = sklicevalnik za class class_name
 - <kbd>#</kbd>id_name`{}` = sklicevalnik za id, ki sem ga poimenoval id_name
+- ne pozabi na `border-style: ;`, drugače se ne bo videlo nič

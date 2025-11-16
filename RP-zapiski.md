@@ -69,3 +69,22 @@
 - <kbd>.</kbd>class_name`{}` = sklicevalnik za class class_name
 - <kbd>#</kbd>id_name`{}` = sklicevalnik za id, ki sem ga poimenoval id_name
 - ne pozabi na `border-style: ;`, drugače se ne bo videlo nič
+
+# LaTeX
+**GLAVA**
+- `\documentclass[a4paper,12pt]{article}`
+- `\usepackage[slovene]{babel}`
+- `\usepackage[utf8]{inputenc}`
+- `\usepackage[T1]{fontenc}`
+- 
+- `\usepackage{lmodern}`
+- `\usepackage{amsmath}`
+- `\usepackage{url}`
+- `\usepackage{graphicx}`
+
+**BODY**
+- `\begin{document}`
+- `\title{Izdelava urnikov}`
+- `\author{Nejc Širovnik}`
+- `\date{14. \ 10. \ 2019}`
+- `\maketitle`

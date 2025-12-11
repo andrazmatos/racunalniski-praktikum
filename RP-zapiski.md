@@ -70,6 +70,10 @@
 - <kbd>#</kbd>id_name`{}` = sklicevalnik za id, ki sem ga poimenoval id_name
 - ne pozabi na `border-style: ;`, drugače se ne bo videlo nič
 
+
+# VS Code
+<kbd>Alt</kbd> + <kbd>Z</kbd> - prelom besedila
+
 # LaTeX
 **GLAVA**
 - `\documentclass[a4paper,12pt]{article}`

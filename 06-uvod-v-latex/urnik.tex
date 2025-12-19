@@ -9,6 +9,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}      % izhodna datoteka je kodirana v sistemu T1
 \usepackage[slovene]{babel}
+\usepackage{amsthm}
 
 \begin{document}
 
@@ -21,6 +22,15 @@
 \author{Nejc Širovnik}
 \date{14. \ 10. \ 2019}
 \maketitle
+
+{\theoremstyle{plain}
+\newtheorem{izrek}{Izrek}
+}
+
+
+{\theoremstyle{definition}
+\newtheorem{definicija}{Definicija}
+}
 
 % začetek povzetka
 \begin{abstract}

@@ -1,0 +1,126 @@
+\subsection{GRAFI}
+\begin{frame}
+    \subsectionpage
+\end{frame}
+
+\begin{slajd}
+    {\pojem{Lema o rokovanju}}{Naj bo G=(V,E) graf. Velja \[\sum_{v \in V}^{} d(v) = 2|E|\]}
+\end{slajd}
+
+\begin{pagin}
+Vsak graf ima \pojem{sodo} mnogo število točk \pojem{lihe} stopnje.
+\end{pagin}
+
+\begin{pagin}
+Graf je \pojem{dvodelen} natanko takrat, ko ne vsebuje \pojem{lihega} cikla.
+\end{pagin}
+
+\begin{pagin}
+Če v grafu obstaja \pojem{sprehod} od u do v, kjer $u,v \in V(G)$, potem obstaja tudi \pojem{pot} od u do v.
+\end{pagin}
+
+\begin{pagin}
+    Če v grafu obstaja \pojem{obhod} lihe dolžine, obstaja tudi \pojem{cikel} lihe dolžine.
+\end{pagin}
+
+\begin{slajd}
+    {\pojem{karakterizacija dreves}}{Naj bo G drevo. Naslednje trditve so ekvivalentne: \break 1. G je drevo \break 2. G je povezan in $|E(T)| = |V(T)|-1$ \break 3. Med vsakima dvema vozliščema u in v $ u \neq v$ obstaja natanko ena pot v G \break 4. G je povezan in vsaka povezava je most.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{IZREK Eulerjevih grafov}}{Naj bo G \pojem{povezan} graf. Potem je G eulerjev $\Leftrightarrow $ vsako vozlišče ima sodo stopnjo.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{IZREK Eulerjevih sprehodov}}{Naj bo G \pojem{povezan} graf. Potem ima G eulerjev \pojem{sprehod} $\Leftrightarrow $ G ima največ dve vozlišči lihe stopnje.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{IZREK o risarskih potezah}}{Naj bo G \pojem{povezan} graf, ki ima $l$ vozlišč lihe stoletja. Če $l=0$, lahko G narišemo z eno potezo. Sicer lahko G narišemo v najmanj  $\frac{l}{2}$ potezah.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Potreben pogoj za Hamiltonovost}}{Naj bo G graf. Predpostavimo, da obstaja množica $S\subseteq V(G)$, da velja $\Omega(G-S) > |S|$. Potem G \pojem{ni} Hamiltonov.}
+\end{slajd}
+ 
+
+\begin{slajd}
+    {\pojem{Izrek o Hamiltonovi poti}}{Naj bo G graf in $S\subseteq V(G)$, da velja $\Omega(G-S) > |S|+1$. Potem G nima Hamiltonove \pojem{poti}.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Lema o stopnjah Hamiltonovih grafov}}{Naj bo G graf in $u,v \in  V(G)$, ter u in v nista povezana, $\{u,v\} \notin E(G)$. \break Naj velja $d(u) + d(v) \geq |V(G)|$. Potem velja \bigbreak G je hamiltonov $\Leftrightarrow$ G' je hamiltonov, kjer je G' dobljen iz G z dodajanjem povezave \{u,v\}}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Orejev izrek}}{Naj bo G graf z $|V(G)|\geq 3$. Predpostavimo, da $\forall u,v \in  V(G), u\neq v, \{u,v\} \notin E(G)$ velja $d(u) + d(v) \geq |V(G)|$. \bigbreak Potem je graf Hamiltonov.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Diracov izrek}}{Naj bo G graf z $|V(G)|\geq 3$. \bigbreak Če velja $\delta(G)\geq \frac{|V(G)|}{2}$ je graf Hamiltonov.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Lema o rokovanju za ravninske grafe}}{Za vsako lice $f\in F(G)$ označimo $l(f)$ kot število povezav na robu lica $f$. Velja: \bigbreak
+    $\sum_{f\in F(G)}^{}l(f) = 2|E(G)|$ \bigbreak DOKAZ: Vsaka povezava je na robu dveh lic. $\qed$}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{Eulerjeva formula}}{Naj bo G \pojem{povezan} ravninski graf. Potem velja: \bigbreak
+    $|V(G)|-|E(G)|+|F(G)|=2$}
+\end{slajd}
+
+\begin{pagin}
+    Naj ima ravninski graf G $\Omega(G)$ povezanih komponent. Potem velja: \break $|V(G)|-|E(G)|+|F(G)|=\Omega(G)+1$
+\end{pagin}
+\begin{pagin}
+    Naj bo G
+ ravninski graf z vsaj tremi vozlišči. Tedaj je
+ $|E(G)|\leq 3|V(G)|-6$
+\bigbreak
+ Če je graf G
+ brez 
+3-ciklov, potem je celo
+ $|E(G)|\leq 2|V(G)|-4$
+\end{pagin}
+
+\begin{slajd}
+    {Trditev o minorjih}{Če ima G minor, ki ni ravninski, potem G ni ravninski.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Wagnerjev izrek}}{G je ravninski graf natanko tedaj, ko NE vsebuje minorjev $K_5$ in $K_{3,3}$.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Izrek Kuratovskega}}{G je ravninski graf natanko tedaj, ko nima subdivizije $K_5$ in $K_{3,3}$.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Izrek o štirih barvah}}{Naj bo G \pojem{ravninski graf}. Potem $\chi(G)\leq 4$}
+\end{slajd}
+
+\begin{pagin}
+    Za poljuben graf G velja $\chi(G)\leq \Delta(G)+1$.
+\end{pagin}
+
+\begin{slajd}
+    {\pojem{Brooksov izrek}}{Naj bo G graf, ki je različen od $K_n$ in od lihega cikla. Potem velja $\chi(G)\leq \Delta(G)$}
+\end{slajd}
+
+\begin{pagin}
+    {Naj bo G graf. Velja $\chi'(G) \geq \Delta(G)$}
+\end{pagin}
+
+\begin{slajd}
+    {\pojem{Izrek za dvodelne grafe}}{Naj bo G dvodelen graf. Velja $\chi'(G)= \Delta(G)$}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{Vizingov izrek}}{Naj bo G graf. Velja $\chi'(G)\leq \Delta(G)+1$}
+\end{slajd}
+
+\begin{pagin}
+    {Regularen graf z liho mnogo vozlišči je razreda II.}
+\end{pagin}

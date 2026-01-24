@@ -1,0 +1,54 @@
+\documentclass[a4paper, 10pt]{article}
+
+% NALOGA 1
+% Vključite pakete za podporo slovenščini,
+% prepoznavo vhodnega kodiranja `utf8` in izhodnega kodiranja `T1`.
+% Prekopirajte ustrezne tri vrstice iz pregledne datoteke `1-osnove~.tex`.
+
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}      % izhodna datoteka je kodirana v sistemu T1
+\usepackage[slovene]{babel}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+\begin{document}
+
+% Pri tej nalogi (in tudi vseh naslednjih) si pomagajte s paleto ukazov!
+% Naslov, avtor, datum in povzetek naj bodo izdelani z uporabo ukazov in
+% okolja, ki so v ta namen definirani v razredu `article`. Da se bo glava
+% dokumenta s temi podatki prikazala, morate uporabiti ukaz `\maketitle`.
+
+\title{
+    ANALIZA I \\
+     —\\
+    \large IZREKI IN DEFINICIJE \\
+}
+
+\author{}
+\date{}
+\maketitle
+
+{\theoremstyle{plain}
+\newtheorem{izrek}{Izrek}
+}
+
+
+{\theoremstyle{definition}
+\newtheorem{definicija}{Definicija}
+}
+
+\newpage
+\section{LIMITA FUNKCIJE}
+
+\begin{izrek}
+    Naj bo f funkcija ene spremenljivke in a $\in \mathbb{R}$ stekališče $D_f$ z leve in desne. Velja: \\
+    \[\exists\lim_{x \rightarrow a}f(x) \iff \exists\lim_{x \rightarrow a^-}f(x)  \wedge \exists\lim_{x \rightarrow a^+}f(x) \wedge \lim_{x \rightarrow a^-}f(x)  = \lim_{x \rightarrow a^+}f(x)  \] 
+\end{izrek}
+
+\begin{izrek}
+
+\end{izrek}
+
+
+\end{document}

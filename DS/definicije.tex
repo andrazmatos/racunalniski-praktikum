@@ -63,6 +63,89 @@ if \ \forall b \in A: b \leq a
 \end{slajd}
 
 \begin{slajd}
-    {Element a $\in$ A je \pojem{supremum} za B $\subseteq$ A, če }{ je A zgornja meja za B in velja:
-    c $\in$ A je zgornja meja za B $\implies c \geq a$ }
+    {Element a $\in$ A je \pojem{supremum} za B $\subseteq$ A, če }{ je A zgornja meja za B in velja: \break
+    c $\in$ A je zgornja meja za B $\implies c \geq a$ \bigbreak podobno \textbf{infimum} }
 \end{slajd}
+
+\begin{slajd}
+    {(A,$\leq$ je \pojem{mreža})}{če $\forall a,b \in A \ \exists sup\{a,b\} \in A \ in \ \exists inf\{a,b\} \in A$ \break Pišemo $sup\{a,b\}=a\vee b \ | \ inf\{a,b\}=a\wedge b$}
+\end{slajd}
+
+%grafi
+
+\subsection{GRAFI}
+\begin{frame}
+    \subsectionpage
+\end{frame}
+
+\begin{slajd}
+    {\pojem{sprehod}}{je zaporedje $v_0e_1v_2\cdots e_nv_n$, kjer so $v_i$ vozlišča, $e_i$ povezave in $e_{i-1}$ povezuje $v_{i-1}$ z $v_i$.
+    \break V splošnem se lahko vozlišča in povezave v \textbf{sprehodu} ponavljajo.}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{enostaven sprehod}}{je sprehod, kjer se povezave $e_i$ ne ponavljajo, lahko pa greš večkrat skozi isto vozlišče.}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{obhod}}{oziroma \pojem{sklenjen sprehod} je sprehod, je $v_0 = v_n$. Torej končaš, kjer si začel.}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{pot}}{je enostaven sprehod, kjer se niti vozlišča ne ponovijo.}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{cikel}}{je \pojem{enostaven obhod}, kjer so $v_0 \arrowvert v_{n-1}$ različni in velja $v_0 = v_n$. Torej se ponovi edino začetno vozlišče.}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{stopnja vozlišča/točke v}}{je število povezav, ki vsebujejo v}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{regularen gran}}{je graf, kjer imajo vsa vozlišča isto stopnjo.}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{list}}{je vozlišče stopnje 1}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{krajišli povezave}}{vozliššči, ki ju povezuje povezava $e=\{v_1,v_2\}$.}
+\end{slajd}
+
+
+\begin{slajd}
+    {\pojem{matrika sosednosti}}{Naj bo $V=\{v_1,v_2 \cdots v_n \}.$ Matrika sosednosti grafa G je matrika $A=[a_{ij}]_{i,j:1-n}$, kjer je \break \[
+    a_{ij} = \begin{cases}
+        1,& \text{če sta $v_i$ in $v_j$ sosednji krajišči }\\
+        0,& \text{sicer}
+    \end{cases}
+    \]}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{incidenčna matrika}}{Naj bo $V=\{v_1,v_2 \cdots v_n \}.$ in $E=\{e_1,e_2 \cdots e_k \}.$ Incidenčna matrika grafa G(V,E) je matrika $B=[b_{ij}]_{\text{i:1-n j:1-k}}$, kjer je \break \[
+    b_{ij} = \begin{cases}
+        1,& \text{če $v_i \in e_j$}\\
+        0,& \text{sicer}
+    \end{cases}
+    \]}
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{podgraf, induciran, vpet}}{Graf H je podgraf grafa G, če velja V(H)$\subseteq$ V(G) in E(H)$\subseteq$ E(G). \break Vpet: V(H)=V(G) \break
+    Induciran: če \[ \forall u,v \in V(H): \{u,v\}\in E(G) \implies \{u,v\}\in E(H) \] }
+\end{slajd}
+
+\begin{slajd}
+    {\pojem{dvodelen graf}}{če lahko zapišemo V(G)=$A \cup B$, kjer $A\cap B =\{\}$ in $\forall e \in E(G):$ e ima eno krajišče v A in drugo v B }
+\end{slajd}
+
